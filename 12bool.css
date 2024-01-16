@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+/* reset */
 
 .test *{
     border: 1px dashed gray;
@@ -26,11 +27,11 @@
 }
 
 /* flex modifiers */
-.flex-center {
+.justify-center {
     justify-content: center;
 }
 
-.flex-end {
+.justify-end {
     justify-content: flex-end;
 }
 
