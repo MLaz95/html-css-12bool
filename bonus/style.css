@@ -36,11 +36,15 @@ main{
 }
 
 .door:active .door-left{
-    transform: translateX(-300px);
+    animation: open-left linear 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .door:active .door-right{
-    transform: translateX(300px);
+    animation: open-right linear 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .row div.secret{
@@ -54,4 +58,40 @@ main{
     height: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+@keyframes open-left {
+    0%{
+        transform: translate(0);
+    }
+
+    25%{
+        transform: translateX(-50px);
+    }
+
+    50%{
+        transform: translateX(-100px);
+    }
+
+    100%{
+        transform: translateX(-200px);
+    }
+}
+
+@keyframes open-right {
+    0%{
+        transform: translate(0);
+    }
+
+    25%{
+        transform: translateX(50px);
+    }
+
+    50%{
+        transform: translateX(100px);
+    }
+
+    100%{
+        transform: translateX(200px);
+    }
 }
