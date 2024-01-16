@@ -36,15 +36,12 @@ main{
 }
 
 .door:active .door-left{
-    animation: open-left linear 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: open-left 5s linear 0s 1 forwards;
+
 }
 
 .door:active .door-right{
-    animation: open-right linear 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: open-right 5s linear 0s 1 forwards;
 }
 
 .row div.secret{
