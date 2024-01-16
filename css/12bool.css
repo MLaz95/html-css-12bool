@@ -177,6 +177,55 @@
     margin-left: 100%;
 }
 
+/* column offset rigth side*/
+.offset-mr-1{
+    margin-right: calc(100% / 12);
+}
+
+.offset-mr-2{
+    margin-right: calc(100% / 12 * 2);
+}
+
+.offset-mr-3{
+    margin-right: calc(100% / 12 * 3);
+}
+
+.offset-mr-4{
+    margin-right: calc(100% / 12 * 4);
+}
+
+.offset-mr-5{
+    margin-right: calc(100% / 12 * 5);
+}
+
+.offset-mr-6{
+    margin-right: calc(100% / 12 * 6);
+}
+
+.offset-mr-7{
+    margin-right: calc(100% / 12 * 7);
+}
+
+.offset-mr-8{
+    margin-right: calc(100% / 12 * 8);
+}
+
+.offset-mr-9{
+    margin-right: calc(100% / 12 * 9);
+}
+
+.offset-mr-10{
+    margin-right: calc(100% / 12 * 10);
+}
+
+.offset-mr-11{
+    margin-right: calc(100% / 12 * 11);
+}
+
+.offset-mr-12{
+    margin-right: 100%;
+}
+
 /* query mobile */
 @media screen and (max-width: 480px) {
 
