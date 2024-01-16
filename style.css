@@ -10,8 +10,8 @@ section{
     background-color: #006CFA;
 }
 
-[class*="col-"].green{
+[class*="col-"].nested{
     background-color: #00E165;
-    border: none;
+    border: 1px solid #006CFA;
 }
 
