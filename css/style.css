@@ -1,0 +1,21 @@
+section{
+    margin-bottom: 20px;
+}
+
+[class*="col-"]{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+
+    color: white;
+    background-color: #006CFA;
+}
+
+[class*="col-"].nested{
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.big{
+    padding: 40px;
+}
